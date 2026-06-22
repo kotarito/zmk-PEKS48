@@ -43,7 +43,7 @@
 
         // レイヤー 0: QWERTY (Mac標準)
 
-        default_layer {
+        Default {
             bindings = <
 &kp ESCAPE  &kp Q     &kp W     &kp E     &kp R      &kp T        &kp Y      &kp U  &kp I      &kp O           &kp P            &kp BACKSPACE
 &kp TAB     &kp A     &kp S     &kp D     &kp F      &kp G        &kp H      &kp J  &kp K      &kp L           &kp SEMICOLON    &kp ENTER
@@ -55,19 +55,19 @@
         // レイヤー 1: Colemak-DH 改
         // レイヤー 2: 数字 / 記号 / メディア (Mac最適化)
 
-        layer_1 {
+        NumsChars {
             bindings = <
 &kp ESC     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &to 3      &to 2         &kp LEFT_BRACKET  &kp RBKT       &kp BACKSLASH  &kp DELETE
 &kp CAPS    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7        &kp N8            &kp N9         &kp N0         &kp ENTER
-&kp LSHIFT  &kp INS       &kp DEL       &kp HOME      &kp END       &kp PG_UP       &kp PG_DN  &kp C_VOL_DN  &kp C_VOL_UP      &kp C_BRI_DEC  &kp C_BRI_INC  &none
-&kp LCTRL   &kp LALT      &none         &kp LWIN      &none         &none           &none      &none         &kp GRAVE         &none          &none          &none
+&kp LSHIFT  &kp INS       &kp DEL       &none         &none         &none           &kp PG_DN  &kp C_VOL_DN  &kp C_VOL_UP      &kp C_BRI_DEC  &kp C_BRI_INC  &kp PAGE_UP
+&kp LCTRL   &kp LALT      &none         &kp LWIN      &none         &none           &none      &none         &kp GRAVE         &kp HOME       &kp END        &kp PAGE_DOWN
             >;
         };
 
         // レイヤー 3: レイヤー2のコピー
         // レイヤー 4: ファンクション / ナビゲーション
 
-        layer_2 {
+        FuncsMouse {
             bindings = <
 &kp ESC     &kp F1    &kp F2   &kp F3    &kp F4    &kp F5         &kp F6       &kp F7    &kp F8  &kp F9          &kp F10         &kp F11
 &kp TAB     &kp INS   &kp DEL  &kp HOME  &kp END   &kp PG_UP      &kp PG_DN    &kp CAPS  &none   &none           &none           &kp F12
