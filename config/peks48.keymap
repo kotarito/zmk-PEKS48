@@ -66,10 +66,10 @@
 
         NumsChars {
             bindings = <
-&kp ESC     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &to 3         &to 2         &none          &kp LBKT      &kp RBKT   &kp DELETE
-&kp CAPS    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6        &kp N7        &kp N8         &kp N9        &kp N0     &kp ENTER
-&kp LSHIFT  &kp INS       &kp DEL       &none         &none         &none           &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRI_DEC  &kp C_BRI_UP  &kp PG_UP  &kp BACKSLASH
-&kp LCTRL   &kp LALT      &none         &kp LWIN      &none         &none           &none         &none         &kp GRAVE      &kp HOME      &kp PG_DN  &kp END
+&kp ESC     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &to 3         &to 2         &none          &kp LBKT      &kp RBKT   &kp DELETE
+&kp CAPS    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5           &kp N6        &kp N7        &kp N8         &kp N9        &kp N0     &kp ENTER
+&kp LSHIFT  &kp INS       &kp DEL       &none         &none         &none            &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRI_DEC  &kp C_BRI_UP  &kp PG_UP  &kp BACKSLASH
+&kp LCTRL   &kp LALT      &none         &kp LWIN      &none         &new_behavior    &none         &none         &kp GRAVE      &kp HOME      &kp PG_DN  &kp END
             >;
         };
 
